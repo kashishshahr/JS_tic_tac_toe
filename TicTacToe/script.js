@@ -69,6 +69,8 @@ function evaluateResult(clickedCell){
               gameStatus.textContent=resultMesage(!roundDraw);
               isGameActive=false;
               
+              clickedCell.style.backgroundColor="yellow";
+              clickedCell.style.color="white";
               return;
        }
        }
