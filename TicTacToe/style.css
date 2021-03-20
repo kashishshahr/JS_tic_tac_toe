@@ -11,8 +11,17 @@ body {
 
 #grid div {
   background-color: white;
+  color:black;
   width: 200px;
-  height:200px
+  height:200px;
+  text-align: center;
+  font-size: 10em;
+}
+#grid div:hover{
+  background-color:black;
+  cursor:pointer;
+  color:white;
+
 }
 
 #grid div img {
